@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=5.1.0",
+        "yiisoft/yii": "1.1.*",
+        "almasaeed2010/adminlte": "2.1.1"
+    }
+}
