@@ -54,7 +54,8 @@ return CMap::mergeArray(
 
 				//RULES GII
 				'gii'=>'gii',
-         		'gii/<action:\w+>'=>'gii/default/<action>',
+         		'gii/<controller:\w+>'=>'gii/<controller>',
+         		'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
 
          		//RULES MODULE ADM
 				'admin'=>'admin',
