@@ -34,6 +34,7 @@ move or merge the AdminLTE theme from:
 	themes/AdminLTE-2.1.1
 
 OBS 1: for use GII, select "Code Template" > custom
+
 OBS 2: To use environment DEV, rename config/sample-main-local.php to main-local.php.
 
 The file environment set debug on server production or development
