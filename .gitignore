@@ -1,0 +1,41 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# IGNORE YII FRAMEWORK STUFF
+
+assets/*
+!.gitignore
+application.log
+
+protected/config/main-local.php
+protected/composer.lock
+!protected/vendor/yiisoft/yii/framework/gii/generators/crud/templates/custom/*
+!protected/vendor/yiisoft/yii/framework/gii/generators/model/templates/custom/*
+!protected/vendor/yiisoft/yii/framework/gii/generators/crud/CrudCode_custom.php
+protected/vendor/*
+protected/runtime/*

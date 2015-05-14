@@ -1,0 +1,28 @@
+.grid-view .button-column{
+	width: 7%;
+	min-width: 70px;
+	max-width: 70px;
+}
+
+.yiiPager{
+	margin: 0;
+	padding: 0;
+}
+
+.error, .errorMessage {
+	color: #dd4b39;
+  	border-color: #dd4b39 !important;
+  	box-shadow: none;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+	max-width: 180px;
+}
+
+.main-header .navbar .dropdown-menu li a {
+	color: #777 !important;
+}
+
+.main-header .navbar .dropdown-menu li a:hover {
+	background: #f5f5f5 !important;
+}
