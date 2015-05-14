@@ -54,7 +54,7 @@
                             'labelFooter'=>array('title'=>'See All Messages'),
                             'badge'=>array('class'=>'label label-success', 'value'=>3),
                             'items'=>array(
-                                array('title'=>'Support Team', 'imageUrl'=>Yii::app()->theme->baseUrl . '/dist/img/avatar4.png', 'url'=>'#','icon'=>'fa fa-clock-o','value'=>'Why not buy a new awesome theme?')
+                                array('title'=>'Support Team', 'imageUrl'=>Yii::app()->theme->baseUrl . '/dist/img/avatar04.png', 'url'=>'#','icon'=>'fa fa-clock-o','value'=>'Why not buy a new awesome theme?')
                                 )
                             ),
                         array(
@@ -72,7 +72,7 @@
                         array(
                             'class'=>'Users',
                             'htmlOptions'=>array('class'=>'dropdown user user-menu'),
-                            'avatar'=> Yii::app()->theme->baseUrl . '/dist/img/avatar4.png',
+                            'avatar'=> Yii::app()->theme->baseUrl . '/dist/img/avatar04.png',
                             'itemsCssClass'=>'dropdown-menu',
                             'items'=>array(
                                 array('url'=>'#', 'label'=>Yii::t('app','Change Password')),

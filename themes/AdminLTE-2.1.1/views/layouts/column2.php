@@ -8,7 +8,7 @@
                     <!-- Sidebar user panel -->
                     <div class="user-panel">
                         <div class="pull-left image">
-                            <img src="<?php echo Yii::app()->theme->baseUrl; ?>/dist/img/avatar4.png" class="img-circle" alt="User Image" />
+                            <img src="<?php echo Yii::app()->theme->baseUrl; ?>/dist/img/avatar04.png" class="img-circle" alt="User Image" />
                         </div>
                         <div class="pull-left info">
                             <p><?php echo Yii::t('app','Hello'); ?>, <?php echo ucfirst(Yii::app()->user->name); ?></p>
