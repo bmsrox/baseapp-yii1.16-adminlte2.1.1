@@ -17,7 +17,7 @@ class AdminModule extends CWebModule
 		Yii::app()->theme = "AdminLTE-2.1.1";
 
 		Yii::app()->setComponents(array(
-            'errorHandler'=>array('errorAction'=>'drogueria/default/error')
+            'errorHandler'=>array('errorAction'=>'admin/default/error')
         ));
 
 	}
